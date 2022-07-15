@@ -1,12 +1,3 @@
-getgenv().wavetolose = 24
-getgenv().hidename = true
-getgenv().unit = "erwin"
-getgenv().id = "{8e7dc10e-d029-4b53-be80-4e85da73e520}" -- ID da sua UNIT 1
-getgenv().webhook = "" -- LINK DO WEBHOOK AQUI
---erwin {8e7dc10e-d029-4b53-be80-4e85da73e520}
---broly {e23df20a-59dd-44d9-93b2-f99cb6732e84}
-repeat wait() until game:IsLoaded()
-
 task.spawn(function()  -- Hides name for yters (not sure if its Fe)
     while task.wait() and getgenv().hidename do
         pcall(function()
