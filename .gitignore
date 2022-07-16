@@ -42,7 +42,7 @@ end
 end
 end
 
-local function place() 
+local function place2() 
   if game:GetService("Workspace")["_wave_num"].Value < getgenv().wavetolose then
         local args = {
     [1] = getgenv().id,
